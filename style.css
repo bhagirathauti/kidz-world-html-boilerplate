@@ -29,7 +29,6 @@
 }
 .kw-bg{
    height: 20%;
-   width: 100%;
 }
 .kw-bg img{
    height: 350px;
@@ -113,4 +112,47 @@
 }
 .brought-to-you-by p{
     font-size: 12px;
+}
+
+@media screen and (max-width:1000px) {
+    .logo img{
+        height: 30px;
+        width: 110px;
+        padding: 0px;
+    }
+    .kw-logo .cart{
+        padding-right: 0px;
+    }
+    .kw-logo{
+        align-items: center;
+    }
+    .items .heading1,.heading2,.heading3{
+        display: flex;
+        justify-content: center;
+        padding-right: 40px;
+    }
+    .books{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .book1 , .book2 , .book3 , .book4 , .book5 , .book6{
+        padding: 20px 10px 10px 0px;
+    }
+    .games{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .game1 , .game2 , .game3 , .game4{
+        padding: 20px 0px 10px 25px;
+    }
+    .handmade-items{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hmitem1,.hmitem2,.hmitem3,.hmitem4{
+        padding: 20px 0px 10px 25px;
+    }
 }
